@@ -2,16 +2,16 @@
 layout: page
 title: Contact
 permalink: /contact/
-feature-img: "img/color.png"
+feature-img: "img/EclipseBackground60.png"
 ---
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+Fill out the form below to contact me. I will return contact inquiries within a timely manner during business hours. Thank you!
 
 <form action="https://getsimpleform.com/messages?form_api_token=59c5a084b90237cae8801146183ec8d4" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
   <input type='hidden' name='redirect_to' value='http://stephersue.github.io/portfolio-iro/thank-you/' />
-  <input type='text' name='name' placeholder='Your Full Name' />
-  <input type='email' name='email' placeholder='Your E-mail Address' />
-  <textarea name='message' placeholder='Write your message ...'></textarea>
-  <input type='submit' value='Send Message' />
+  <input type='text' name='name' style='width: 100%; margin: 5px; padding: 10px;' placeholder='Your Full Name' /><br>
+  <input type='email' name='email' style='width: 100%; margin: 5px; padding: 10px' placeholder='Your E-mail Address' /><br>
+  <textarea name='message' style='width: 100%; margin: 5px; padding:10px;' placeholder='Write your message ...'></textarea><br>
+  <input type='submit' style='background-color: #745a8c; color: #ffffff; padding: 10px;' value='Send Message' />
 </form>
